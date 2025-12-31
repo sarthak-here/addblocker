@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial;
+      padding: 15px;
+      width: 200px;
+    }
+    h3 {
+      margin-bottom: 10px;
+    }
+    .toggle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <h3>Ad Blocker</h3>
+
+  <div class="toggle">
+    <span>Status</span>
+    <input type="checkbox" id="toggle">
+  </div>
+
+  <p id="statusText"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

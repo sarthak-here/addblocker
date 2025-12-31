@@ -1,0 +1,55 @@
+/* ================================
+   BLOCK AD IMAGES (SAFE DOMAINS)
+   ================================ */
+
+img[src*="doubleclick"],
+img[src*="googlesyndication"],
+img[src*="adservice"],
+img[src*="adsystem"],
+a[href*="doubleclick"],
+a[href*="googlesyndication"] {
+  display: none !important;
+}
+
+
+/* ================================
+   BLOCK KNOWN AD IFAMES ONLY
+   ================================ */
+
+iframe[src*="doubleclick"],
+iframe[src*="ads"],
+iframe[src*="googlesyndication"] {
+  display: none !important;
+}
+
+
+/* ================================
+   TARGETED POPUPS (NOT GENERIC)
+   ================================ */
+
+div[class*="popup-ad"],
+div[id*="popup-ad"],
+div[class*="modal-ad"],
+div[class*="overlay-ad"] {
+  display: none !important;
+}
+
+
+/* ================================
+   REMOVE FULLSCREEN AD OVERLAYS
+   ================================ */
+
+div[style*="position: fixed"][style*="z-index"] {
+  pointer-events: none !important;
+  background: transparent !important;
+}
+
+
+/* ================================
+   RESTORE PAGE INTERACTION
+   ================================ */
+
+html, body {
+  overflow: auto !important;
+  pointer-events: auto !important;
+}
