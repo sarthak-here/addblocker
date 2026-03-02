@@ -80,13 +80,3 @@ This project was built to learn and demonstrate real-world ad blocking technique
 📜 License
 
 MIT License
-
-If you want, I can:
-
-Add screenshots / demo GIF
-
-Optimize it for Chrome Web Store
-
-Add a site-wise ON/OFF toggle
-
-Write contribution guidelines
